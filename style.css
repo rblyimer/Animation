@@ -1,0 +1,72 @@
+h1 {
+  background: url(images/dark-texture-watercolor.jpg);
+  font-family: "Trebuchet MS";
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+h2 {
+  background-color: #6dd3f8;
+  font-family:cursive;
+  color:black;
+  font-size: xx-large;
+  text-align:initial;
+  padding: 10px 10px 10px 100px;
+}
+
+html {
+  font-family: "Trebuchet MS";
+  color: white;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  background: url(images/dark-texture-watercolor.jpg);
+  justify-content: space-around;
+  padding-left: -100cm;
+}
+p {font-size: xx-large; }
+
+div {
+  display: flex;
+  align-items: center;
+  font-family: serif;
+}
+p:hover {
+  background-color: rgb(20, 15, 15);
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+.container {
+    display:list-item;
+    align-content:space-around;
+    font-size:smaller;
+    padding: 15px 15px 15px 15px
+  }
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.left {font-family:cursive;
+        color:black;
+font-size: x-large;}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #f7d895, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
